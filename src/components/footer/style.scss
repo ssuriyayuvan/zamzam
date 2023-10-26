@@ -1,0 +1,98 @@
+footer {
+  background: #eff0f1;
+  padding: 2rem 0;
+  position: relative;
+  .footer-content-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .logo-block {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+      .footer-logo {
+        max-width: 12rem;
+        width: 100%;
+      }
+      ul.social-link {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        li {
+          a {
+            color: #ff2525;
+            height: 2.5rem;
+            width: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border-radius: 50rem;
+            font-size: 1rem;
+            box-shadow: 0.2rem 0.2rem 0.5rem #0000002b;
+          }
+        }
+      }
+    }
+    .footer-menu-block {
+      h2 {
+        font-weight: 800;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        li {
+          a {
+            color: #212529;
+            font-family: Poppins;
+
+            font-style: normal;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+
+.copy-footer {
+  position: relative;
+  padding: 1rem;
+  background: #eff0f1;
+  border-top: 1.449px solid #b6b6b6;
+  h6 {
+    color: var(--Style, #191919);
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    font-weight: 500;
+    span {
+      background: linear-gradient(106deg, #f00 -6.45%, #ff8d8e 109.09%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Poppins;
+      font-size: 0.95rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 0 0.2rem;
+    }
+  }
+}

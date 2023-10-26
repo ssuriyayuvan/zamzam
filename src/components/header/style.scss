@@ -1,0 +1,46 @@
+header {
+  position: relative;
+  margin: 0rem;
+  padding: 1rem;
+  background-image: url("../../images/header-bg.png");
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: rgba(89, 7, 7, 0.16);
+    mix-blend-mode: multiply;
+  }
+  .header-block {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    .brand-logo {
+      img {
+        height: 3rem;
+        width: auto;
+      }
+    }
+    .header-menu {
+      list-style: none;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 0 1rem;
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

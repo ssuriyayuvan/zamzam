@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,500;5..1200,600;5..1200,700;5..1200,800;5..1200,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+@media (min-width: 991px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1567px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1667px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+// @media screen and (min-width: 1767px) and (max-width: 1866px) {
+//   html {
+//     font-size: 20px;
+//   }
+// }
+@media (min-width: 1800px) {
+  .pop-body-container .pop-nft-details .input-bid-container {
+    margin-top: 2rem !important;
+  }
+  html {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1867px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1967px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 2067px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 2167px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2267px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 2467px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 2567px) {
+  html {
+    font-size: 25px;
+  }
+}
+.no_height {
+  height: 83vh;
+}
+
+@media (min-width: 3066px) {
+  html {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 4066px) {
+  html {
+    font-size: 42px;
+  }
+}
+@media (min-width: 5066px) {
+  html {
+    font-size: 52px;
+  }
+}
+@media (min-width: 6066px) {
+  html {
+    font-size: 62px;
+  }
+}
+@media (min-width: 7066px) {
+  html {
+    font-size: 72px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  html {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+  div#freshworks-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 80%;
+  }
+}
+
+.container-fluid {
+  padding: 0 2rem !important;
+  @media screen and (min-width: 1200px) {
+    padding: 0 6rem !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    padding: 0 1rem !important;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  box-shadow: none !important;
+}
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair", serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+::selection,
+::-webkit-selection {
+  color: #ffffff;
+  background: #ff5050;
+  border-radius: 5rem;
+}
+img {
+  user-select: none;
+}
+input {
+  &::placeholder {
+    color: #8f7e7e;
+  }
+}
+
+// Swiper
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #d9d9d9;
+}
